@@ -20,18 +20,18 @@
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "edceaa72ac13757059cb768ccbdf3b67"
+            "eTag": "f99a10c94d1cfcaaad743839200f7052"
           }
         },
         "lambda": [
           {
             "arn": "arn:aws:lambda:us-east-1:220603982230:function:ask-custom-hello-world-default",
-            "functionName": "ask-custom-hello-world-default",
+            "functionName": "arn:aws:lambda:us-east-1:220603982230:function:ask-custom-hello-world-default",
             "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "a7aa70fe-ad69-481e-bbda-a190032a1f89"
+            "revisionId": "abb7ebdf-471a-4ea0-830d-ec87492b3629"
           }
         ]
       }

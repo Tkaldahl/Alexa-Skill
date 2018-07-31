@@ -1,41 +1,88 @@
 {
   "interactionModel": {
-    "languageModel": {
-      "invocationName": "greeter",
-      "types": [
-
-      ],
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": [
-
-          ]
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": [
-
-          ]
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": [
-
-          ]
-        },
-        {
-          "name": "HelloWorldIntent",
-          "slots": [
-
+      "languageModel": {
+          "invocationName": "greeter",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "HelloWorldIntent",
+                  "slots": [
+                      {
+                          "name": "name",
+                          "type": "NAME"
+                      }
+                  ],
+                  "samples": [
+                      "greet {name}",
+                      "hello {name}",
+                      "say hello to {name}",
+                      "say hi {name}"
+                  ]
+              }
           ],
-          "samples": [
-            "hello",
-            "say hello",
-            "say hello world"
+          "types": [
+              {
+                  "name": "NAME",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "michelle"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "sara"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "sarah"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "dave"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "daniel"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "dan"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "john"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "iggy"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "taylor"
+                          }
+                      }
+                  ]
+              }
           ]
-        }
-      ]
-    }
+      }
   }
 }
